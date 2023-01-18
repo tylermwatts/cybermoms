@@ -1,18 +1,21 @@
-import Link from 'next/link';
+// external
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
-import { Inter } from '@next/font/google';
-
-import { Post } from './../../types/index';
-
-import styles from './Sidebar.module.css';
+// components
 import Text from '../Text/Text';
+
+// types/constants
+import { Post } from './../../types';
+
+// assets
+import styles from './Sidebar.module.css';
 
 export interface SidebarProps {
 	posts: Post[];
 }
 
-export default function Sidebar({ posts }: SidebarProps) {
+export function Sidebar({ posts }: SidebarProps) {
 	const { query } = useRouter();
 	return (
 		<nav className={styles.container}>
@@ -39,3 +42,5 @@ export default function Sidebar({ posts }: SidebarProps) {
 		</nav>
 	);
 }
+
+export default Sidebar;

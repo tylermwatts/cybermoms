@@ -1,6 +1,8 @@
-import type { AppProps } from 'next/app';
+// external
 import Head from 'next/head';
+import type { AppProps } from 'next/app';
 
+// components
 import Layout from '@/layouts/Layout';
 
 import '@/styles/globals.css';

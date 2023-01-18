@@ -1,5 +1,7 @@
-import { Text } from '../components';
+// components
+import { Text } from '@/components';
 
+// styles
 import styles from '@/styles/Home.module.css';
 
 export default function Home() {

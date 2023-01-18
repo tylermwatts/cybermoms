@@ -1,10 +1,14 @@
+// external
 import { PropsWithChildren } from 'react';
 import useSWR from 'swr';
 
-import Header from '@/components/Header/Header';
-import Sidebar from '@/components/Sidebar/Sidebar';
+// components
+import { Header, Sidebar } from '@/components';
+
+// utils
 import { getAllPostsFetcher } from '@/lib';
 
+// assets
 import styles from './Layout.module.css';
 
 export function Layout({ children }: PropsWithChildren) {

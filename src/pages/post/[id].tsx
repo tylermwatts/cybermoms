@@ -1,11 +1,16 @@
+// external
 import { GetStaticPaths, GetStaticProps } from 'next';
 
-import { getAllPostIds, getPostByIdFetcher } from '@/lib';
+// components
+import { Text } from '@/components';
+
+// types/constants
 import { Post } from '@/types';
-import { Inter } from '@next/font/google';
 
-import { Text } from '../../components';
+// utils
+import { getAllPostIds, getPostByIdFetcher } from '@/lib';
 
+// assets
 import styles from './Post.module.css';
 
 export interface PostProps {

@@ -1,5 +1,8 @@
-import styles from './Header.module.css';
+// components
 import Text from '../Text/Text';
+
+// assets
+import styles from './Header.module.css';
 
 export function Header() {
 	return (
