@@ -1,0 +1,16 @@
+.layout {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+}
+
+.pageBody {
+	display: flex;
+	flex-grow: 1;
+}
+
+.main {
+	width: 100%;
+	padding: 1rem;
+}

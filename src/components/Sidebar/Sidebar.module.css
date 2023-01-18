@@ -1,0 +1,8 @@
+.container {
+	width: 20vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 1rem 2rem;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
